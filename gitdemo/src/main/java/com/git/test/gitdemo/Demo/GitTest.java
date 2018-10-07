@@ -26,6 +26,7 @@ public class GitTest {
         System.out.println(new Date());
         Object securityContext = System.getSecurityManager().getSecurityContext();
         System.out.println(securityContext);
+        System.out.println(1);
     }
 
 }
