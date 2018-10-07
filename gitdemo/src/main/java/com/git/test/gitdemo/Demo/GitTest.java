@@ -10,6 +10,8 @@
  */
 package com.git.test.gitdemo.Demo;
 
+import java.util.Date;
+
 /**
  * 〈一句话功能简述〉<br> 
  * 〈〉
@@ -21,6 +23,9 @@ package com.git.test.gitdemo.Demo;
 public class GitTest {
     public static void main(String[] args) {
         System.out.println("demo1");
+        System.out.println(new Date());
+        Object securityContext = System.getSecurityManager().getSecurityContext();
+        System.out.println(securityContext);
     }
 
 }
